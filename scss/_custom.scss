@@ -31,11 +31,14 @@ section#content {
             }
             
             a.download {
-                background: url('../img/download.png') no-repeat scroll 13px center #008000;
+                @include radius;
+                background: url('../img/download.png') no-repeat scroll 13px center #4CA64C;
                 padding-left: 46px;
+                font-weight: bold;
             }
             
             a.guide {
+                @include radius;
                 background-color: gray;
             }
     }
