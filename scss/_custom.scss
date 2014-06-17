@@ -1,0 +1,38 @@
+/* Custom fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,300,300italic);
+
+header#welcome-msg {
+        background: #0095DD url('../img/fox.png') no-repeat scroll center bottom;
+        color: #FFFFFF;
+        min-height: 320px;
+        margin-bottom: 1em;
+        
+        section {
+
+            p {
+                max-width: 400px;
+                margin-top: 110px;
+                padding: 0 10px;
+                font-size: 1.2em;
+            }
+        }
+}
+    
+section#content {
+
+    article.device {
+            img {
+                height: 360px;
+                margin-bottom: 1em;
+            }
+            
+            a.download {
+                background: url('../img/download.png') no-repeat scroll 13px center #008000;
+                padding-left: 46px;
+            }
+            
+            a.guide {
+                background-color: gray;
+            }
+    }
+}
