@@ -8006,23 +8006,27 @@ header#welcome-msg section p {
   font-size: 1.2em;
 }
 
-/* line 31, ../scss/_custom.scss */
+/* line 28, ../scss/_custom.scss */
+section#content {
+  padding: 0 10px;
+}
+/* line 33, ../scss/_custom.scss */
 section#content article.device h3 {
   margin-bottom: 1em;
 }
-/* line 35, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 section#content article.device img {
   height: 360px;
   margin-bottom: 1em;
 }
-/* line 40, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 section#content article.device a.download {
   border-radius: 3px;
   background: url("../img/download.png") no-repeat scroll 13px center #4ca64c;
   padding-left: 46px;
   font-weight: bold;
 }
-/* line 47, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 section#content article.device a.guide {
   border-radius: 3px;
   background-color: gray;

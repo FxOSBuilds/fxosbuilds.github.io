@@ -1,5 +1,6 @@
 <welcome "Welcome to <strong>Firefox OS</strong> Builds. Here you will find non-official Firefox OS builds for different devices created by the community.">
 <download "Download build <small>(Not yet!)</small>">
+<devices "Devices">
 <installguide "Install guide</small>">
 <latestversion "Latest stable version: <em>1.3</em>">
 <install "Install">
