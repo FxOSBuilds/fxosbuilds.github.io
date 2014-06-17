@@ -1,0 +1,12 @@
+{
+  "locales": [
+    "en",
+    "es"
+  ],
+  "default_locale": "en",
+  "resources": [
+    "locales/common/variables.json",
+    "locales/en/strings.l20n",
+    "locales/es/strings.l20n"
+  ]
+}
