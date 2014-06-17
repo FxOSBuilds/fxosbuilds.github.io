@@ -8011,10 +8011,13 @@ section#content article.device img {
 }
 /* line 33, ../scss/_custom.scss */
 section#content article.device a.download {
-  background: url("../img/download.png") no-repeat scroll 13px center green;
+  border-radius: 3px;
+  background: url("../img/download.png") no-repeat scroll 13px center #4ca64c;
   padding-left: 46px;
+  font-weight: bold;
 }
-/* line 38, ../scss/_custom.scss */
+/* line 40, ../scss/_custom.scss */
 section#content article.device a.guide {
+  border-radius: 3px;
   background-color: gray;
 }
