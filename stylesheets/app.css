@@ -8028,6 +8028,7 @@ section#content article.device a.download {
 }
 /* line 49, ../scss/_custom.scss */
 section#content article.device a.guide {
-  border-radius: 3px;
   background-color: gray;
+  margin-left: -10px;
+  border-radius: 0px 3px 3px 0px;
 }
