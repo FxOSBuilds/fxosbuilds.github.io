@@ -1,10 +1,11 @@
 <welcome "Bienvenido a <strong>Firefox OS</strong> Builds. Aquí podrás encontrar versiones no oficiales de Firefox OS para diferentes dispositivos creadas por la comunidad.">
-<download "Descargar <small>(aún no disposible)</small>">
+<download "Descargar (aún no disposible)">
 <devices "Dispositivos">
 <installguide "Guía de instalación</small>">
 <latestversion "Última versión estable: <em>1.3</em>">
 <install "Instalación">
+<staytuned "Sigue atento, ¡información en breve!">
 <about "Acerca de">
 <abouttext "Este sitio ha sido creado por voluntarios y no es parte oficial de ningún fabricante de dispositivos, operador o Mozilla Corporation. Las compilaciones están alojadas en servidores de terceros y nosotros sólo las listamos para comodidad del usuario.">
 <disclaimer "Renuncia de responsabilidad">
-<disclaimertext "Los miembros del equipo de Firefox OS Builds o cualquier otra persona en esta web no se hacen responsables de dispositvos 'brickeados', tarjetas SD muertas, pérdida de datos, o que te hayan despedido porque la aplicación de alarma falló. Por favor, investiga antes de instalar si tienes alguna duda sobre las características de las versiones que hay en esta web. Es TU decisión hacer estas modificaciones. Es posible que pierdas el derecho a garantía si alteras el hardware o software de tu dispositivo">
+<disclaimertext "Los miembros del equipo de Firefox OS Builds o cualquier otra persona en esta web no se hacen responsables de dispositivos 'brickeados', tarjetas SD muertas, pérdida de datos o que te hayan despedido porque la aplicación de alarma falló. Por favor, investiga antes de instalar si tienes alguna duda sobre las características de las versiones que hay en esta web. Es TU decisión hacer estas modificaciones. Es posible que pierdas el derecho a garantía si alteras el hardware o software de tu dispositivo">

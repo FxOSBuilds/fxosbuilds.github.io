@@ -1,9 +1,10 @@
 <welcome "Welcome to <strong>Firefox OS</strong> Builds. Here you will find non-official Firefox OS builds for different devices created by the community.">
-<download "Download build <small>(Not yet!)</small>">
+<download "Download build (Not yet!)">
 <devices "Devices">
 <installguide "Install guide</small>">
 <latestversion "Latest stable version: <em>1.3</em>">
 <install "Install">
+<staytuned "Stay tuned, coming soon!">
 <about "About">
 <abouttext "This site is made by volunteers and it's not officialy part any phone manufacturer, operator or Mozilla Corporation. Builds are hosted by third party servers, we just list them for user convenience.">
 <disclaimer "Disclaimer">
