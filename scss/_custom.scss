@@ -6,7 +6,13 @@ h1 {
                 font-weight: bold;
                 font-size: 1.1em;
         }
-} 
+}
+
+ul {
+        li {
+                list-style-position: inside;
+        }
+}
 
 header#welcome-msg {
         background: #0095DD url('../img/fox.png') no-repeat scroll center bottom;
