@@ -46,8 +46,51 @@
         <article>
             
             <h2 data-l10n-id="install">Install</h2>
-            <p data-l10n-id="staytuned">Stay tuned, coming soon!</p>
+            <h3>Requisites</h3>
             
+            <p>Your system need these tools installed first in order to run the update utility.</p>
+            
+            <ul>
+                GNU/Linux
+                <li>perl</li>
+                <li>gnuzip</li>
+                <li>java</li>
+                <li>adb</li>
+            </ul>
+            
+            <ul>
+                Windows
+                <li>perl</li>
+                <li>java</li>
+                <li>adb</li>
+            </ul>
+            
+            <ul>
+                MacOS
+                <li>perl</li>
+                <li>java</li>
+                <li>adb</li>
+            </ul>
+            
+            <h3>Step 1</h3>
+            
+            <p>Download the package for your device from our <a href="/">font page</a> and unzip it.</p>
+            
+            <h3>Step 2</h3>
+            
+            <p>On your device, enable the remote debugging. You will find it under <em>Settings - Information - More information - Developer settings - Remote debugging</em>.</p>
+            
+            <h3>Step 3</h3>
+            
+            <p>Connect your device via USB cable and, on your computer, open a terminal inside the folder you've just unziped and run:</p>
+            
+            <p>GNU/Linux: <code> ./flash_linux.sh</code></p>
+            <p>Windows: <code> ./flash_windows.bat</code></p>
+            <p>Mac: <code> ./flash_mac.sh</code></p>
+            
+            <p><strong>Important note:</strong> If your device wasn't 'rooted' before (if you don't know what this mean, it was not) you have to select first the option "Rootear".</p>
+            
+            <p>Once your device is rooted, run the script and select the "Update" option. Use enter to accept the options.</p>
         </article>
 
         

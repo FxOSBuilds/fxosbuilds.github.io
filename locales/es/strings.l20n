@@ -1,5 +1,6 @@
 <welcome "Bienvenido a <strong>Firefox OS</strong> Builds. Aquí podrás encontrar versiones no oficiales de Firefox OS para diferentes dispositivos creadas por la comunidad.">
-<download "Descargar (aún no disposible)">
+<download "Descargar">
+<downloadno "Descargar (aún no disposible)">
 <devices "Dispositivos">
 <installguide "Guía de instalación</small>">
 <latestversion "Última versión estable: <em>1.3</em>">
