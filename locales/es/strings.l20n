@@ -11,7 +11,7 @@
 <abouttext "Este sitio ha sido creado por voluntarios y no es parte oficial de ningún fabricante de dispositivos, operador o Mozilla Corporation. Las compilaciones están alojadas en servidores de terceros y nosotros sólo las listamos para comodidad del usuario.">
 <disclaimer "Renuncia de responsabilidad">
 <disclaimertext "Los miembros del equipo de Firefox OS Builds o cualquier otra persona en esta web no se hacen responsables de dispositivos 'brickeados', tarjetas SD muertas, pérdida de datos o que te hayan despedido porque la aplicación de alarma falló. Por favor, investiga antes de instalar si tienes alguna duda sobre las características de las versiones que hay en esta web. Es TU decisión hacer estas modificaciones. Es posible que pierdas el derecho a garantía si alteras el hardware o software de tu dispositivo">
-<installguide """
+<installtext """
             <h2>Instalación</h2>
             <h3>Requisitos</h3>
             
