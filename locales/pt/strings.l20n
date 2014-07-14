@@ -11,3 +11,44 @@
 <abouttext "Este site foi criado por voluntários e não é parte oficial de nenhum fabricante de dispositivos, operadora ou da Mozilla Corportation. As compilações estão alojadas em servidores de terceiros e são apenas listadas aqui para a comodidade dos usuários.">
 <disclaimer "Renúncia de responsabilidade">
 <disclaimertext "Os membros da equipe do Firefox OS Builds, ou qualquer outra pessoa neste site, não são responsáveis por dispositivos 'brickados', cartões SD mortos, perdade dados ou por você ter sido despedido caso a aplicação de alarme falhe em despertar. Por favor, pesquise antes de instalar se tem alguma dúvida sobre as características das versões que estão nesse site. É SUA decisão fazer estas modificações. É possível que você perca o direito a garantia do fabricante caso altere o hardware ou o software do seu dispositivo.">
+<installtext """
+            <h2>Install</h2>
+            <h3>Requisites</h3>
+            
+            <p>Your system needs these tools installed first in order to run the update utility.</p>
+            
+            
+            <ul>
+                Windows
+                <li><a href="http://www.perl.org/get.html#win32">perl</a></li>
+                <li><a href="#">Device drivers</a></li>
+            </ul>
+            
+            <p><small>Both GNU/Linux and MacOS should have all requirements included in the OS.</small></p>
+            
+            </div>
+            
+            <h3>Step 1</h3>
+            
+            <p>Download the package for your device from our <a href="/">front page</a> and unzip it.</p>
+            
+            <h3>Step 2</h3>
+            
+            <p>On your device, enable the remote debugging. You will find it under <em>Settings - Device information - More information - Developer - Remote debugging</em>.</p>
+            
+            <h3>Step 3</h3>
+            
+            <p>Connect your device via USB cable and, on your computer, open a terminal inside the folder you've just unziped and run:</p>
+            
+            <p>GNU/Linux: <code> ./flash_linux.sh</code></p>
+            <p>Windows: <code> ./flash_windows.bat</code></p>
+            <p>Mac: <code> ./flash_mac.sh</code></p>
+            
+            <p>Select the "Update device" option. Follow the instructions on screen, the device will reboot itself a few times.</p>
+            
+            <p><strong>Important note:</strong> If your device was 'rooted' before (if you don't know what this mean, stop reading) you have to go to "Advanced" option and select "ADB root" (if you don't have it already) and later "Just update".</p>
+            
+            <p>If you find any issues with the installer (not with the build), please report them on <a href="https://github.com/fxosbuilds/installer/issues">our github page</a>.</p>
+            
+            <p><strong>Enjoy!</strong></p>
+""">
