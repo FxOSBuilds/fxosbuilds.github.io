@@ -12,9 +12,6 @@
 <staytuned "Fique ligado, detalhes em breve!">
 <usagenote "<strong>Important note:</strong> These builds are intended just for testing and shouldn't be used for normal use yet. Use at your own risk.">
 <about "Sobre">
-<abouttext "Este site foi criado por voluntários e não é parte oficial de nenhum fabricante de dispositivos, operadora ou da Mozilla Corportation. As compilações estão alojadas em servidores de terceiros e são apenas listadas aqui para a comodidade dos usuários.">
-<disclaimer "Renúncia de responsabilidade">
-<disclaimertext "Os membros da equipe do Firefox OS Builds, ou qualquer outra pessoa neste site, não são responsáveis por dispositivos 'brickados', cartões SD mortos, perdade dados ou por você ter sido despedido caso a aplicação de alarme falhe em despertar. Por favor, pesquise antes de instalar se tem alguma dúvida sobre as características das versões que estão nesse site. É SUA decisão fazer estas modificações. É possível que você perca o direito a garantia do fabricante caso altere o hardware ou o software do seu dispositivo.">
 <installtext """
             <h2>Install</h2>
             <h3>Requisites</h3>
@@ -58,11 +55,11 @@
 """>
 
 <abouttext """
-            <h2>About</h2>
+            <h2>Sobre</h2>
             
             <h3>Who are you?</h3>
             
-            <p>This site is made by volunteers and it's not officialy part any phone manufacturer, operator or Mozilla Corporation. Builds are hosted by third party servers, we just list them for user convenience.</p>
+            <p>Este site foi criado por voluntários e não é parte oficial de nenhum fabricante de dispositivos, operadora ou da Mozilla Corportation. As compilações estão alojadas em servidores de terceiros e são apenas listadas aqui para a comodidade dos usuários.</p>
             
             <h3>What does these builds include?</h3>
             
@@ -82,9 +79,9 @@
             
             <p>The easiest way is to join <a href="/test/">our testers team</a> downloading and reporting issues.</p>
             
-            <h3>Disclaimer</h3>
+            <h3>Renúncia de responsabilidade</h3>
             
-            <p>Members of Firefox OS Builds team or anyone else on this website is not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you have any concerns about features included in the products you find here before flashing it! YOU are choosing to make these modifications. Your warranty may be void if you tamper with any part of your device / software.</p>
+            <p>Os membros da equipe do Firefox OS Builds, ou qualquer outra pessoa neste site, não são responsáveis por dispositivos 'brickados', cartões SD mortos, perdade dados ou por você ter sido despedido caso a aplicação de alarme falhe em despertar. Por favor, pesquise antes de instalar se tem alguma dúvida sobre as características das versões que estão nesse site. É SUA decisão fazer estas modificações. É possível que você perca o direito a garantia do fabricante caso altere o hardware ou o software do seu dispositivo.</p>
 """>
 
 <testtext """
