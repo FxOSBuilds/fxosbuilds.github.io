@@ -54,3 +54,25 @@
             
             <p><strong>¡Disfruta!</strong></p>
 """>
+<testtext """
+            <h2>Pruebas</h2>
+
+                        <p>Necesitamos tu ayuda para probar las utilidades de actualización para poder ofrecer una experiencia genial a los usuarios.</p>
+                                    
+                                                <h3>¿Cómo pued ayudar?</h3>
+
+                                                            <p>Si dispones de uno de los dispositivos compatibles, descarga por favor la utilidad de instalación y sigue las instrucciones de <a href="/install/">la guía de instalación</a>. Si algo sale mal, por favor informa en <a href="https://github.com/fxosbuilds/installer/issues">nuestra página de github</a>, no olvides detallar:</p>
+
+                                                                        <ul>
+                                                                                        <li>El modelo de tu dispositivo.</li>
+                                                                                                        <li>El sistema operativo de tu equipo.</li>
+                                                                                                                        <li>La versión anterior de Firefox OS que tenías.</li>
+                                                                                                                                        <li>La versión Firefox OS que instentabas instalar.</li>
+                                                                                                                                                        <li>Si has modificado la instalación de fábrica (instalando otras versiones anteriormente, rooteandolo...).</li>
+                                                                                                                                                                        <li>Los mensajes que aparecieron en pantalla durante la instalación.</li>
+                                                                                                                                                                                    </ul>
+
+                                                                                                                                                                                                <p>Adicionalmente, si todo fue bien, ¡queremos saberlo! escríbenos en nuestra <a href="https://twitter.com/fxosbuilds">cuenta de Twitter</a>.</p>
+
+                                                                                                                                                                                                            <p>Gracias, tu ayuda nos permitirá mejorar y dar una mejor experiencia a otros usuarios como tú :)</p>
+                                                                                                                    """>
