@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title >Firefox OS Builds - Install guide</title>
+    <title >Firefox OS Builds - Testing</title>
     <link rel="stylesheet" href="../stylesheets/app.css" />
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <script src="../js/l20n.min.js"></script>
@@ -44,49 +44,27 @@
 
     <section id="content" class="row">
         
-        <article data-l10n-id="installtext">
-            
-            <h2>Install</h2>
-            <h3>Requisites</h3>
-            
-            <p>Your system needs these tools installed first in order to run the update utility.</p>
-            
-            
-            <ul>
-                Windows
-                <li><a href="http://www.perl.org/get.html#win32">perl</a></li>
-                <li><a href="/">Device drivers</a></li>
-            </ul>
-            
-            <p><small>Both GNU/Linux and MacOS should have all requirements included in the OS.</small></p>
-            
-            </div>
-            
-            <h3>Step 1</h3>
-            
-            <p>Download the package for your device from our <a href="/">front page</a> and unzip it.</p>
-            
-            <h3>Step 2</h3>
-            
-            <p>On your device, enable the remote debugging. You will find it under <em>Settings - Device information - More information - Developer - Remote debugging</em>.</p>
-            
-            <h3>Step 3</h3>
-            
-            <p>Connect your device via USB cable and, on your computer, open a terminal inside the folder you've just unziped and run:</p>
-            
-            <p>GNU/Linux: <code> ./flash_linux.sh</code></p>
-            <p>Windows: <code> ./flash_windows.bat</code></p>
-            <p>Mac: <code> ./flash_mac.sh</code></p>
-            
-            <p>Select the "Update device" option. Follow the instructions on screen, the device will reboot itself a few times.</p>
-            
-            <p><strong>Important note:</strong> If your device was 'rooted' before (if you don't know what this mean, stop reading) you have to go to "Advanced" option and select "ADB root" (if you don't have it already) and later "Just update".</p>
-            
-            <p>If you find any issues with the installer (not with the build), please report them on <a href="https://github.com/fxosbuilds/installer/issues">our github page</a>.</p>
-            
-            <p><strong>Enjoy!</strong></p>
-        </article>
+        <article data-l10n-id="testtext">
+            <h2>Testing</h2>
 
+            <p>We need your help to test the install scripts and the builds in order to deliver a great experience to users.</p>
+            
+            <h3>How can I help?</h3>
+
+            <p>If you have one of our supported devices, please, download the install script and follow <a href="/install/">the install guide</a> instructions. If something goes wrong, report it back in <a href="https://github.com/fxosbuilds/installer/issues">our github page</a>, don't forget to detail:</p>
+
+            <ul>
+                <li>Your device model.</li>
+                <li>Your previous Firefox OS version.</li>
+                <li>The Firefox OS version your are trying to update to.</li>
+                <li>If you have modified the factory install (installing other builds previously, rooting...).</li>
+                <li>Messages you got on screen during install.</li>
+            </ul>
+
+            <p>Also, if everything goes right, let us know! We would like to know about your success, write us on our <a href="https://twitter.com/fxosbuilds">Twitter account</a>.</p>
+
+            <p>Thanks, your help will allow us to improve and give a better experience to other users like you :)</p>
+        </article>
         
     </section>
 
