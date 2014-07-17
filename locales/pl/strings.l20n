@@ -1,0 +1,79 @@
+<welcome "Witaj na <strong>Firefox OS</strong> Builds. Znajdziesz tutaj nieoficjalne obrazy z system Firefox OS tworzone przez społeczność.">
+<download "Pobierz (beta)">
+<downloadno "Pobierz obraz (na razie niedostępne)">
+<devices "Urządzenia">
+<installguide "Poradnik instalacji</small>">
+<latestversion "Najnowsza wersja stabilna: <em>1.3</em>">
+<testlink "Informacje dla testerów">
+<install "Instaluj">
+<windrivers "Sterowniki dla Windowsa">
+<otherbuilds "Inne wersje">
+<staytuned "Dostępne już niedługo!">
+<usagenote "<strong>Ważne:</strong> Obrazy są przeznaczone do testów i nie nadają się do normalnego korzystania. Używasz na własne ryzyka.">
+<about "O nas">
+<abouttext "Serwis tworzony jest przez i nie jest związana z żadnym producentem, operator ani Mozilla Corportation. Obrazy są hostowane na osobnych serwerach, my udostępniamy jedynie linki.">
+<disclaimer "Deklaracja">
+<disclaimertext "Członkowie Firefox OS Builds ani nikt inny związany z tym serwisem nie ponosi odpowiedzialności za zbrickowane urządzenia, oszkodzone karty SD, utracone dane, ani za to, że budzik nie zadzwonił na czas. To TY podejmujesz decyzję o wgraniu modyfikacji. Gwarancja na Twój telefon może zostać unieważniona.">
+<installtext """
+            <h2>Instalacja</h2>
+            <h3>Wymagania</h3>
+            
+            <p>Przed instalacją należy zainstalować poniższe narzędzia.</p>
+            
+            
+            <ul>
+                Windows
+                <li><a href="http://www.perl.org/get.html#win32">perl</a></li>
+                <li><a href="#">Device drivers</a></li>
+            </ul>
+            
+            <p><small>GNU/Linux i MacOS powinny domyślnie zawierać wszystkie potrzebne narzędzia.</small></p>
+            
+            </div>
+            
+            <h3>Krok 1</h3>
+            
+            <p>Ściągnij odpowiednią paczkę na swoje urządzenie ze <a href="/">strony głównej</a> i rozpakuj.</p>
+            
+            <h3>Krok 2</h3>
+            
+            <p>Na urządzeniu aktywuj tryb zdalnego debugowania. Znajdzie go w <em>Ustawienia - O urządzeniu - Więcej informacji - Dla programistów - zdalne debugowanie</em>.</p>
+            
+            <h3>Krok 3</h3>
+            
+            <p>Podłącz swoje urządzenie kablem USB do komputera, otwórz terminal w katalalogu z plikami obrazu i uruchom:</p>
+            
+            <p>GNU/Linux: <code> ./flash_linux.sh</code></p>
+            <p>Windows: <code> ./flash_windows.bat</code></p>
+            <p>Mac: <code> ./flash_mac.sh</code></p>
+            
+            <p>Wybierz opcję "Update device". Postępuj wedle instrukcji wyświetlanych na ekranie, urządzenie zrestartuje się kilkukrotnie.</p>
+            
+            <p><strong>Ważne:</strong> Jeśli Twoje urządzenie zostało wcześniej zrootowane (jeśli nie wiesz, co to znaczy, zignoruj to) musisz wejść w "Advanced" i wybrać "ADB root", a później "Just update".</p>
+            
+            <p>Jeśli napotkasz jakieś błędy w instalatorze (a nie w samym obrazie), zgłoś je <a href="https://github.com/fxosbuilds/installer/issues">na naszej stronie na GitHubie</a>.</p>
+            
+            <p><strong>Powodzenia!</strong></p>
+""">
+<testtext """
+            <h2>Testowanie</h2>
+
+            <p>Potrzebuje Twojej pomocy w testowaniu naszych skryptów, aby jak najwięcej ludzi mogło w przyszłości z tego skorzystać.</p>
+                        
+                                    <h3>Jak mogę pomóc?</h3>
+
+                                                <p>Jeśli posiadasz jedno ze wspieranych przez nas urządzeń, ściągnij instalator i postępuj wedle <a href="/install/">poradnika instalacji</a>. Jeśli coś pójdzie nie tak, zgłoś to <a href="https://github.com/fxosbuilds/installer/issues">na GitHubie</a>, nie zapomnij podać w opisie:</p>
+
+                                                            <ul>
+                                                                            <li>Modelu urządzenia.</li>
+                                                                            <li>Systemu operacyjnego na komputerze.</li>
+                                                                                            <li>Poprzedniej wersji Firefox OS.</li>
+                                                                                                            <li>Wersji obrazu, który usiłowałeś wgrać.</li>
+                                                                                                                            <li>Czy modyfikowałeś fabryczne oprogramowanie (inne obrazy, rooting itd.).</li>
+                                                                                                                                            <li>Komunikat błędu.</li>
+                                                                                                                                                        </ul>
+
+                                                                                                                                                                    <p>Jeśli wszystko pójdzie dobrze też daj nam znać! Bardzo chętnie poczytamy na <a href="https://twitter.com/fxosbuilds">naszym Twitterze</a>.</p>
+
+                                                                                                                                                                                <p>Dziękujemy, to pomoże również innym użytkownikom :)</p>
+""">
