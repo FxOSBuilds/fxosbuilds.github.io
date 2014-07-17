@@ -11,6 +11,7 @@
 <imgfiles "Archivos IMG">
 <staytuned "Sigue atento, ¡información en breve!">
 <usagenote "<strong>Nota importante:</strong> Estas versiones están pensadas sólo para pruebas y no deberían utilizarse aún para uso normal. Úsalas bajo tu propia responsabilidad.">
+<about "Acerca de">
 <installtext """
             <h2>Instalación</h2>
             <h3>Requisitos</h3>
