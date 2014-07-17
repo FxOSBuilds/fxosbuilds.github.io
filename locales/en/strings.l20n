@@ -5,6 +5,8 @@
 <installguide "Install guide</small>">
 <latestversion "Latest stable version: <em>1.3</em>">
 <install "Install">
+<windrivers "Windows drivers">
+<otherbuilds "Other builds">
 <staytuned "Stay tuned, coming soon!">
 <usagenote "<strong>Important note:</strong> These builds are intended just for testing and shouldn't be used for normal use yet. Use at your own risk.">
 <about "About">

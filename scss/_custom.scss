@@ -58,5 +58,21 @@ padding: 0 10px;
                 border-radius: 0px 3px 3px 0px;
                 
             }
+            
+            p.secondary-links {
+                
+                color: #CCCCCC;
+                
+                a {
+                        &:link, &:visited {
+                                font-size: 0.8em;
+                                color: #CCCCCC;
+                        }
+                        
+                        &:hover {
+                                text-decoration: underline;
+                        }
+                }
+            }
     }
 }
