@@ -4,6 +4,7 @@
 <devices "Devices">
 <installguide "Install guide</small>">
 <latestversion "Latest stable version: <em>1.3</em>">
+<testlink "Information for testers">
 <install "Install">
 <windrivers "Windows drivers">
 <otherbuilds "Other builds">
