@@ -8037,3 +8037,16 @@ section#content article.device a.guide {
   margin-left: -10px;
   border-radius: 0px 3px 3px 0px;
 }
+/* line 62, ../scss/_custom.scss */
+section#content article.device p.secondary-links {
+  color: #CCCCCC;
+}
+/* line 67, ../scss/_custom.scss */
+section#content article.device p.secondary-links a:link, section#content article.device p.secondary-links a:visited {
+  font-size: 0.8em;
+  color: #CCCCCC;
+}
+/* line 72, ../scss/_custom.scss */
+section#content article.device p.secondary-links a:hover {
+  text-decoration: underline;
+}
