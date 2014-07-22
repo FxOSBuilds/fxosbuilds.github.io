@@ -8044,7 +8044,7 @@ section#content article.device p.secondary-links {
 /* line 67, ../scss/_custom.scss */
 section#content article.device p.secondary-links a:link, section#content article.device p.secondary-links a:visited {
   font-size: 0.8em;
-  color: #CCCCCC;
+  color: #999999;
 }
 /* line 72, ../scss/_custom.scss */
 section#content article.device p.secondary-links a:hover {
