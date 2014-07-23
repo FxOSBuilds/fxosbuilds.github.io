@@ -1,4 +1,4 @@
-<welcome "Benvido ao <strong>Firefox OS</strong> Builds. Aqui poderá encontrar versões não oficiais do Firefox OS para diferentes dispositivos criadas pela comunidade.">
+<welcome "Bem-vindo ao <strong>Firefox OS</strong> Builds. Aqui poderá encontrar versões não oficiais do Firefox OS para diferentes dispositivos criadas pela comunidade.">
 <download "Baixar (beta)">
 <downloadno "Baixar (não disponível)">
 <devices "Dispositivos">
@@ -11,98 +11,98 @@
 <otherbuilds "Other builds">
 <imgfiles "IMG files">
 <staytuned "Fique ligado, detalhes em breve!">
-<usagenote "<strong>Important note:</strong> These builds are intended just for testing and shouldn't be used for normal use yet. Use at your own risk.">
+<usagenote "<strong>Aviso Importante:</strong> Essas versões são para teste e não devem ser utilizados para uso normal. Use por sua conta e risco.">
 <about "Sobre">
 <installtext """
-            <h2>Install</h2>
-            <h3>Requisites</h3>
-            
-            <p>Your system needs these tools installed first in order to run the update utility.</p>
-            
-            
+            <h2>Instalar</h2>
+            <h3>Pré-requisitos</h3>
+
+            <p>O seu sistema precisa ter instalado as seguintes ferramentas antes de você poder rodar o utilitário de update.</p>
+
+
             <ul>
                 Windows
                 <li><a href="#">Device drivers</a></li>
             </ul>
-            
-            <p><small>Both GNU/Linux and MacOS should have all requirements included in the OS.</small></p>
-            
+
+            <p><small>Tanto o GNU/Linux quanto o MacOS já vem com todos os pré-requisitos incluídos.</small></p>
+
             </div>
-            
-            <h3>Step 1</h3>
-            
-            <p>Download the package for your device from our <a href="/">front page</a> and unzip it.</p>
-            
-            <h3>Step 2</h3>
-            
-            <p>On your device, enable the remote debugging. You will find it under <em>Settings - Device information - More information - Developer - Remote debugging</em>.</p>
-            
-            <h3>Step 3</h3>
-            
-            <p>Connect your device via USB cable and, on your computer, open a terminal inside the folder you've just unziped and run:</p>
-            
+
+            <h3>Passo 1</h3>
+
+            <p>Baixe o pacote para o seu aparelho da nossa <a href="/">página principal</a> e unzip (expanda).</p>
+
+            <h3>Passo 2</h3>
+
+            <p>No seu aparelho, ative o modo de depuração remota (remote debugging). Você o encontrará dentro de <em>Configurações - Informação do Aparelho - Mais informações - Desenvolvedor - Depuração Remota</em>.</p>
+
+            <h3>Passo 3</h3>
+
+            <p>Conecte o seu aparelho via USB, e no seu computador abra um terminal dentro da pasta que voce unzipou e rode:</p>
+
             <p>GNU/Linux: <code> ./flash_linux.sh</code></p>
             <p>Windows: <code> ./flash_windows.bat</code></p>
             <p>Mac: <code> ./flash_mac.sh</code></p>
-            
-            <p>Select the "Update device" option. Follow the instructions on screen, the device will reboot itself a few times.</p>
-            
-            <p><strong>Important note:</strong> If your device was 'rooted' before (if you don't know what this mean, stop reading) you have to go to "Advanced" option and select "ADB root" (if you don't have it already) and later "Just update".</p>
-            
-            <p>If you find any issues with the installer (not with the build), please report them on <a href="https://github.com/fxosbuilds/installer/issues">our github page</a>.</p>
-            
-            <p><strong>Enjoy!</strong></p>
+
+            <p>Selecione a opção "Update device". Siga as instruções na tela, o aparelho vai rebootar sozinho algumas vezes durante o processo.</p>
+
+            <p><strong>Aviso Importante:</strong> Se o seu aparelho já havia sido "rooteado" antes (se você não sabe o que isso significa, pare de ler) você precisa ir na opção "Advanced" e selecionar "ADB root" (se você não tiver ainda) e depois "Just update".</p>
+
+            <p>Se você encontrar qualquer problema ou questão com o instalador (não com o sistema) por favor reporte na <a href="https://github.com/fxosbuilds/installer/issues">nossa página no GitHub</a>.</p>
+
+            <p><strong>Divirta-se!</strong></p>
 """>
 
 <abouttext """
             <h2>Sobre</h2>
-            
-            <h3>Who are you?</h3>
-            
+
+            <h3>Quem somos?</h3>
+
             <p>Este site foi criado por voluntários e não é parte oficial de nenhum fabricante de dispositivos, operadora ou da Mozilla Corportation. As compilações estão alojadas em servidores de terceiros e são apenas listadas aqui para a comodidade dos usuários.</p>
-            
-            <h3>What does these builds include?</h3>
-            
-            <p>This builds have been created from "vanilla" <a href="https://github.com/mozilla-b2g">Firefox OS code</a>. No custom code has been added except from the update URL.</p>
-            
-            <h3>Why my device is not supported?</h3>
-            
-            <p>We try to generate builds for Firefox OS devices where the manufacter does not provide official updates, but in some cases they are locked and it's very complicated. We are working on ways to unlock these devices.</p>
-            
-            <h3>Will I get updates? How?</h3>
-            
-            <p>The builds are ready to provide OTA updates from our custom url, but in this first phase we are not ready yet. You will have to download and install the updates manually.</p>
-            
-            <p>OTA updates will provide updates using the stable channel. This means 1.3 and then 1.4, 2.0... as soon as they are ready for the devices. Some devices will need more work to support future versions.</p>
-            
-            <h3>How can I help?</h3>
-            
-            <p>The easiest way is to join <a href="/test/">our testers team</a> downloading and reporting issues.</p>
-            
+
+            <h3>O que está incluído nessas builds?</h3>
+
+            <p>Essa build foi criada a partir da versão "pura" do <a href="https://github.com/mozilla-b2g">Firefox OS</a>. Nenhum código customizado foi adicionado a não ser a URL de update.</p>
+
+            <h3>Por que o meu aparelho não é suportado?</h3>
+
+            <p>Nós tentamos gerar builds do Firefox OS para aparelhos cujo os fabricantes não oferecem updates oficiais porém em alguns casos isso não é possível pois o aparelho é travado. Ainda estamos trabalhando em formas de destravar esses aparelhos.</p>
+
+            <h3>Vou receber updates? Como?</h3>
+
+            <p>Essas builds estão prontas para receber updates OTA a partir da nossa URL customizada porém nessa primeira fase ainda não enviaremos esses updates. Por enquanto você terá que baixar e instalar os updates manualmente. </p>
+
+            <p>Updates OTA fornecerão updates a partir do canal estável. Isso significa que passaremos pela versão 1.3 e então 1.4 e depois 2.0... conforme essas versões forem ficando prontas para uso. Para alguns aparelhos será necessário um pouco mais de trabalho para que as versões futuras funcionem.</p>
+
+            <h3>Como posso ajudar?</h3>
+
+            <p>O jeito mais fácil é se juntar ao <a href="/test/">nosso time de teste</a> baixando e reportando problemas.</p>
+
             <h3>Renúncia de responsabilidade</h3>
-            
+
             <p>Os membros da equipe do Firefox OS Builds, ou qualquer outra pessoa neste site, não são responsáveis por dispositivos 'brickados', cartões SD mortos, perdade dados ou por você ter sido despedido caso a aplicação de alarme falhe em despertar. Por favor, pesquise antes de instalar se tem alguma dúvida sobre as características das versões que estão nesse site. É SUA decisão fazer estas modificações. É possível que você perca o direito a garantia do fabricante caso altere o hardware ou o software do seu dispositivo.</p>
 """>
 
 <testtext """
-            <h2>Testing</h2>
+            <h2>Testando</h2>
 
-                        <p>We need your help to test the install scripts and the builds in order to deliver a great experience to users.</p>
-                                    
-                                                <h3>How can I help?</h3>
+                        <p>Precisamos de ajuda para testar nossos scripts de instalação e as nossas builds para garantir que nossos usuários tenham uma experiência com uma qualidade bacana!</p>
 
-                                                            <p>If you have one of our supported devices, please, download the install script and follow <a href="/install/">the install guide</a> instructions. If something goes wrong, report it back in <a href="https://github.com/fxosbuilds/installer/issues">our github page</a>, don't forget to detail:</p>
+                                                <h3>Como posso ajudar?</h3>
+
+                                                            <p>Se você possui algum dos aparelhos suportados, por favor baixe o script de instalação e siga as instruções do <a href="/install/">guia de instalação</a>. Se alguma coisa der errado, reporte para a gente na <a href="https://github.com/fxosbuilds/installer/issues">nossa página no github</a>, não se esqueça de especificar:</p>
 
                                                                         <ul>
-                                                                                        <li>Your device model.</li>
-                                                                                        <li>Your computer OS.</li>                
-                                                                                        <li>Your previous Firefox OS version.</li>
-                                                                                                                        <li>The Firefox OS version your are trying to update to.</li>
-                                                                                                                                        <li>If you have modified the factory install (installing other builds previously, rooting...).</li>
-                                                                                                                                                        <li>Messages you got on screen during install.</li>
+                                                                                        <li>O modelo do seu aparelho.</li>
+                                                                                        <li>O sistema operacional do seu computador (incluíndo a versão).</li>
+                                                                                        <li>A versão anterior do Firefox OS.</li>
+                                                                                                                        <li>A versão do Firefox OS que você está tentando instalar.</li>
+                                                                                                                                        <li>Se você modificou a instalação padrão (instalou outra build antes, fez root...).</li>
+                                                                                                                                                        <li>Mensagens que apareceram na tela durante a instalação.</li>
                                                                                                                                                                     </ul>
 
-                                                                                                                                                                                <p>Also, if everything goes right, let us know! We would like to know about your success, write us on our <a href="https://twitter.com/fxosbuilds">Twitter account</a>.</p>
+                                                                                                                                                                                <p>Além disso, se tudo der certo avise para a gente! Nós queremos saber sobre as suas histórias de sucesso. Mande uma mensagem para nós via <a href="https://twitter.com/fxosbuilds">nossa conta no Twitter</a>.</p>
 
-                                                                                                                                                                                            <p>Thanks, your help will allow us to improve and give a better experience to other users like you :)</p>
+                                                                                                                                                                                            <p>Obrigado, a sua ajuda vai permitir que melhoremos nosso projeto e garantir uma experiência melhor para outros usuários e para você :)</p>
 """>
