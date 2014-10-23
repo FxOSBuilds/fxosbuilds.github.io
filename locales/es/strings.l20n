@@ -7,11 +7,11 @@
 <testlink "Información para probadores">
 <changelog "Registro de cambios">
 <install "Instalación">
-<windrivers "Drivers para windows">
+<windrivers "Controladores para Windows">
 <otherbuilds "Otras versiones">
 <imgfiles "Archivos IMG">
 <staytuned "Sigue atento, ¡información en breve!">
-<usagenote "<strong>Nota importante:</strong> Estas versiones están pensadas sólo para pruebas y no deberían utilizarse aún para uso normal. Úsalas bajo tu propia responsabilidad.">
+<usagenote "<strong>Nota importante:</strong> estas versiones están pensadas sólo para pruebas y no deberían utilizarse aún para uso normal. Úsalas bajo tu propia responsabilidad.">
 <about "Acerca de">
 <installtext """
             <h2>Instalación</h2>
@@ -22,7 +22,7 @@
             
             <ul>
                 Windows
-                <li><a href="#">Drivers del dispositivo</a></li>
+                <li><a href="#">Controladores del dispositivo</a></li>
             </ul>
             
             <p><small>Tanto GNU/Linux como MacOS deberían tener todos los requisitos incluidos en el sistema.</small></p>
@@ -45,11 +45,11 @@
             <p>Windows: <code> ./flash_windows.bat</code></p>
             <p>Mac: <code> ./flash_mac.sh</code></p>
             
-            <p>Selecciona la opción "Update device". Sigue las instrucciones en pantalla, el dispositivo se reiniciara sólo varias veces.</p>
+            <p>Selecciona la opción "Update device". Sigue las instrucciones en pantalla, el dispositivo se reiniciará solo varias veces.</p>
             
-            <p><strong>Nota importante:</strong> Si tu dispositivo ya estaba 'rooteado' anteriormente (si no sabes lo que significa no sigas leyendo) tendrás que ir al menú "Advanced" y seleccionar "ADB root" (si no lo tenías aún) y luego "Just update".</p>
+            <p><strong>Nota importante:</strong> si tu dispositivo ya estaba 'rooteado' anteriormente (si no sabes lo que significa no sigas leyendo) tendrás que ir al menú "Advanced" y seleccionar "ADB root" (si no lo tenías aún) y luego "Just update".</p>
             
-            <p>Si tienes algún problema con el instalador (no con la versión), por favor informanos de ello en <a href="https://github.com/fxosbuilds/installer/issues">nuestra página en github</a>.</p>
+            <p>Si tienes algún problema con el instalador (no con la versión), por favor infórmanos de ello en <a href="https://github.com/fxosbuilds/installer/issues">nuestra página en github</a>.</p>
             
             <p><strong>¡Disfruta!</strong></p>
 """>
@@ -91,7 +91,7 @@
                                     
                                                 <h3>¿Cómo puedo ayudar?</h3>
 
-                                                <p>Si dispones de uno de los dispositivos compatibles, descarga por favor la utilidad de instalación y sigue las instrucciones de <a href="/install/">la guía de instalación</a>. Si algo sale mal, por favor informa en <a href="https://github.com/fxosbuilds/installer/issues">nuestra página de github</a>, no olvides detallar:</p>
+                                                <p>Si dispones de uno de los dispositivos compatibles, descarga por favor la utilidad de instalación y sigue las instrucciones de <a href="/install/">la guía de instalación</a>. Si algo sale mal, por favor informa en <a href="https://github.com/fxosbuilds/installer/issues">nuestra página de GitHub</a>, no olvides detallar:</p>
 
                                                 <ul>
                                                     <li>El modelo de tu dispositivo.</li>
